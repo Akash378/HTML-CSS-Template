@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    flex-flow:row-reverse wrap;
+    background-color: red;
+}
+.nav .cards{
+    width: 20%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: aquamarine;
+}
+.hero-Banner{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.panel{
+    height: 100%;
+    width: 25%;
+    padding: 1rem 3rem;
+    background-color: violet;
+
+
+}
+.panel .cards{
+    padding:2.7rem;
+    margin-bottom: 0.5rem;
+    background-color: azure;
+}
+.panel2{
+    height: 100%;
+    width: 50%;
+    padding: 4.5rem;
+    background-color: brown;
+
+}
+.panel2 .card1{
+    padding: 10rem;
+    background-color: azure;
+
+}
+
+.panel3{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse wrap;
+    height: 100%;
+    width: 25%;
+    padding: 0.5rem 3rem;
+    background-color: violet;
+}
+.panel3 .cards{
+    padding:2.8rem;
+    margin-bottom: 0.5rem;
+    background-color: azure;
+}
+    
