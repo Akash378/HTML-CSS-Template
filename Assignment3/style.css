@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+.panel1 , .panel2 , .panel3{
+    display: flex;
+    gap: 1rem;
+    height: 33%;
+    padding: 15px;
+    background-color: aquamarine;
+}
+#right{
+    
+    width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color:lightgoldenrodyellow ;
+    
+}
+#left{
+    
+    width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: lightseagreen;
+    
+}
+.panel2{
+ 
+    background-color: palevioletred;
+}
+.panel3{
+    background-color: rgb(48, 5, 48);
+}
+.panel2 .cards{
+    width: 25%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+}
+#c1{
+    background-color: lightsalmon;
+}
+#c2{
+    background-color: lightgray;
+}
+#c3{
+    background-color: lightcoral;
+}
+#c4{
+    background-color:lightblue;
+}
+.panel3 .cards{
+    width: 33.33%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+}
+#a1{
+    background-color: blueviolet;
+
+}
+#a2{
+    background-color:pink;
+    
+}
+#a3{
+    background-color:goldenrod;
+    
+}
